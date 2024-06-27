@@ -1,0 +1,38 @@
+.counter-main-container {
+  display: flex;
+  align-items: center;
+}
+
+.decrease-btn {
+  background-color: transparent;
+  color: #ffffff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.increase-btn {
+  background-color: transparent;
+  color: #ffffff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.page-number {
+  color: #ffffff;
+  align-items: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+}

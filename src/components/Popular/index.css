@@ -1,0 +1,63 @@
+.popular-movies-container {
+  background: rgba(24, 24, 24, 1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.popular-movies-main-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.popular-movies-loader-retry-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.popular-movies-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.popular-movies-failure-img {
+  height: 220px;
+  width: 300px;
+  align-self: center;
+}
+
+.popular-failure-container-message {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+}
+
+.popular-movies-try-again-btn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  align-self: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .popular-movies-failure-img {
+    height: 172px;
+    width: 233px;
+    align-self: center;
+  }
+
+  .popular-failure-container-message {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #ffffff;
+  }
+}

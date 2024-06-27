@@ -1,0 +1,33 @@
+.home-slider-movie-img {
+  border-radius: 5px;
+  width: 90%;
+  height: 145px;
+  margin: 0px 10px;
+}
+
+@media (max-width: 575px) {
+  .home-slider-movie-img {
+    border-radius: 8px;
+    width: 85%;
+    height: 85px;
+    margin: 0px 10px;
+  }
+}
+
+@media ((min-width: 575px) and (max-width: 767px)) {
+  .home-slider-movie-img {
+    border-radius: 8px;
+    width: 86%;
+    height: 95px;
+    margin: 0px 10px;
+  }
+}
+
+@media ((min-width: 768px) and (max-width: 991px)) {
+  .home-slider-movie-img {
+    border-radius: 8px;
+    width: 88%;
+    height: 110px;
+    margin: 0px 10px;
+  }
+}

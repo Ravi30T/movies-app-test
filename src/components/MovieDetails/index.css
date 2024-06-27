@@ -1,0 +1,396 @@
+.movie-details-container {
+  background: rgba(24, 24, 24, 1);
+  min-height: 100vh;
+}
+
+.movie-details-main-container {
+  width: 100%;
+  height: 605px;
+  background-size: cover;
+  background-position: center;
+}
+
+.movie-details-on-poster {
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.movie-title {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.year-runtime-adult-type-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.movie-run-time {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.adult-type {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+  margin-right: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.movie-released-date {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+}
+
+.movie-description {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+  margin-top: 0px;
+  max-height: 126px;
+  overflow: hidden;
+  width: 50%;
+}
+
+.movie-details-play-btn {
+  font-family: 'Hanken Grotesk', sans-serif;
+  background-color: #ffffff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  height: 35px;
+  font-weight: 600;
+}
+
+.movie-details-bottom-container {
+  padding-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.genre-container {
+  width: 15%;
+}
+
+.genre-heading {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: rgba(148, 163, 184, 1);
+  font-size: 19px;
+}
+
+.genre-list-container {
+  padding-left: 0px;
+}
+
+.genre-audio-list-item {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+
+.genre-audio-list-item-name {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.audio-container {
+  width: 20%;
+}
+
+.audio-heading {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: rgba(148, 163, 184, 1);
+  font-size: 19px;
+}
+
+.audio-list-container {
+  padding-left: 0px;
+}
+
+.audio-audio-list-item {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+  list-style-type: none;
+  margin-bottom: 1px;
+}
+
+.rating-count-rating-average-container {
+  width: 20%;
+}
+
+.rating-count-heading {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: rgba(148, 163, 184, 1);
+  font-size: 19px;
+}
+
+.rating-count {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+}
+
+.rating-average-heading {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: rgba(148, 163, 184, 1);
+  font-size: 19px;
+}
+
+.rating-average {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+}
+
+.movie-budget-heading {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: rgba(148, 163, 184, 1);
+  font-size: 19px;
+}
+
+.movie-budget {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+}
+
+.movie-release-date-heading {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: rgba(148, 163, 184, 1);
+  font-size: 19px;
+}
+
+.movie-bottom-release-date {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+}
+
+.more-movies-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.more-movies-heading {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.movie-details-loader-retry-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.movie-details-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.movie-details-failure-img {
+  height: 220px;
+  width: 300px;
+  align-self: center;
+}
+
+.movie-details-failure-container-message {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: #ffffff;
+}
+
+.movie-details-try-again-btn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  align-self: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .movie-details-main-container {
+    height: 350px;
+  }
+
+  .lg-more-movies-container {
+    display: none;
+  }
+
+  .sm-more-movies-container {
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .more-movies-list-item {
+    list-style-type: none;
+  }
+
+  .more-movies-img {
+    width: 120px;
+    height: 100px;
+    top: 768px;
+    left: 135px;
+    gap: 0px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+
+  .movie-details-on-poster {
+    margin-top: 3px;
+  }
+
+  .sm-movie-details-on-poster-margin {
+    margin-top: 0px;
+  }
+
+  .movie-title {
+    font-size: 20px;
+  }
+
+  .movie-description {
+    font-size: 14px;
+    max-height: 80px;
+    overflow: auto;
+    width: 70%;
+  }
+
+  .movie-run-time {
+    font-size: 14px;
+  }
+
+  .adult-type {
+    font-size: 14px;
+  }
+
+  .movie-released-date {
+    font-size: 14px;
+  }
+
+  .more-movies-heading {
+    font-size: 18px;
+  }
+
+  .movie-details-failure-img {
+    height: 172px;
+    width: 233px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .genre-container {
+    width: 25%;
+  }
+
+  .genre-heading {
+    font-size: 14px;
+  }
+
+  .genre-audio-list-item {
+    font-size: 13px;
+  }
+
+  .audio-container {
+    width: 30%;
+    margin-right: 10px;
+  }
+
+  .audio-heading {
+    font-size: 14px;
+  }
+
+  .rating-count-rating-average-container {
+    width: 30%;
+  }
+
+  .rating-count-heading {
+    font-size: 14px;
+  }
+
+  .rating-count {
+    font-size: 13px;
+  }
+
+  .rating-average-heading {
+    font-size: 14px;
+  }
+
+  .rating-average {
+    font-size: 13px;
+  }
+
+  .movie-budget-release-date-container {
+    margin-top: 0px;
+  }
+
+  .movie-budget-heading {
+    font-size: 14px;
+  }
+
+  .movie-budget {
+    font-size: 13px;
+  }
+
+  .movie-release-date-heading {
+    font-size: 14px;
+  }
+
+  .movie-bottom-release-date {
+    font-size: 13px;
+  }
+}
+
+@media ((min-width: 768px) and (max-width: 991px)) {
+  .audio-container {
+    width: 22%;
+  }
+
+  .movie-budget-release-date-container {
+    width: 24%;
+  }
+}
+
+@media (min-width: 768px) {
+  .sm-more-movies-container {
+    display: none;
+  }
+
+  .lg-more-movies-container {
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .more-movies-list-item {
+    list-style-type: none;
+  }
+
+  .more-movies-img {
+    width: 255px;
+    height: 170px;
+    top: 758px;
+    left: 165px;
+    gap: 0px;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+}

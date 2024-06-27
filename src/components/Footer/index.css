@@ -1,0 +1,32 @@
+.footer-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-icons-container {
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.footer-icon {
+  color: #ffffff;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 4px;
+}
+
+.contact-us {
+  color: #ffffff;
+  font-family: 'Hanken Grotesk', sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .footer-icon {
+    font-size: 18px;
+  }
+}

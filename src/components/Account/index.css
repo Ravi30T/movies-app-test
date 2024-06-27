@@ -1,0 +1,126 @@
+.account-container {
+  background: rgba(24, 24, 24, 1);
+  min-height: 100vh;
+}
+
+.account-details-container {
+  background: rgba(255, 255, 255, 1);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 55vh;
+  margin-top: 0px;
+}
+
+.account-heading {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.account-user-details {
+  display: flex;
+}
+
+.membership-heading {
+  font-family: 'Hanken Grotesk', sans-serif;
+  width: 15%;
+  color: rgba(148, 163, 184, 1);
+  font-weight: 600;
+}
+
+.user-name {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.user-password {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.plan-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.plan-details-heading {
+  font-family: 'Hanken Grotesk', sans-serif;
+  width: 15%;
+  color: rgba(148, 163, 184, 1);
+  font-weight: 600;
+}
+
+.plan-details {
+  font-family: 'Hanken Grotesk', sans-serif;
+  margin-right: 5px;
+}
+
+.plan-type {
+  font-family: 'Hanken Grotesk', sans-serif;
+  border: 1px solid #000000;
+  padding: 5px;
+  font-weight: 500;
+}
+
+.logout-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.logout-button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  background: rgba(229, 9, 20, 1);
+  color: #ffffff;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.footer-container {
+  margin-top: 10%;
+}
+
+.plan-container {
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  color: rgba(203, 213, 225, 1);
+}
+
+@media (max-width: 767px) {
+  .account-details-container {
+    height: 60vh;
+  }
+
+  .membership-heading {
+    width: 35%;
+  }
+
+  .plan-details-heading {
+    width: 35%;
+  }
+}
+
+@media ((min-width: 768px) and (max-width: 991px)) {
+  .membership-heading {
+    width: 30%;
+  }
+
+  .plan-details-heading {
+    width: 30%;
+  }
+}
+
+@media ((min-width: 992px) and (max-width: 1199px)) {
+  .membership-heading {
+    width: 40%;
+  }
+
+  .plan-details-heading {
+    width: 40%;
+  }
+}

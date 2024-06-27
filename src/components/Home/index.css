@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+.home-container {
+  background: rgba(24, 24, 24, 1);
+  min-height: 100vh;
+}
+
+.home-page-top-container {
+  width: 100%;
+  height: 605px;
+  background-size: cover;
+  background-position: center;
+}
+
+.trending-movies-slick-container {
+  width: 80%;
+  align-self: center;
+}
+
+.trending-originals-top-rated-movies-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.home-heading-container {
+  display: flex;
+  padding-left: 10%;
+}
+
+.footer-container {
+  margin-top: 10%;
+}
+
+.home-loader-retry-main-container {
+  width: 80%;
+  background: rgba(13, 13, 13, 1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin-left: 10%;
+  padding: 10px;
+}
+
+.home-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .home-top-random-movie-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 10px;
+    padding-left: 10%;
+  }
+
+  .home-heading-container {
+    display: flex;
+    padding-left: 9.5%;
+  }
+
+  /* Random Movie Details Containers */
+  .random-movie-title {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+
+  .random-movie-description {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #ffffff;
+    margin-bottom: 15px;
+    max-height: 100px;
+    overflow: hidden;
+    width: 50%;
+  }
+
+  .random-movie-play-btn {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #000000;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+    font-weight: 600;
+  }
+
+  /*                 */
+
+  .heading {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .home-poster-loader-retry-container {
+    width: 80%;
+    background: rgba(13, 13, 13, 1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    min-height: 45vh;
+    padding: 10px;
+  }
+
+  .home-poster-failure-img {
+    height: 48px;
+    width: 48px;
+  }
+
+  .home-failure-img {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 0px;
+  }
+
+  .home-poster-failure-container-message {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .home-failure-container-message {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+  }
+
+  .home-poster-try-again-btn {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    width: 94px;
+    height: 32px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .home-try-again-btn {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    width: 80px;
+    height: 32px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-page-top-container {
+    height: 350px;
+  }
+
+  .home-loader-retry-main-container {
+    height: 20vh;
+    margin-left: 10%;
+    padding: 10px;
+  }
+
+  .home-heading-container {
+    display: flex;
+    padding-left: 8.7%;
+  }
+
+  .home-top-random-movie-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 8%;
+
+    padding-top: 10px;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .random-movie-title {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .random-movie-description {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #ffffff;
+    margin-bottom: 15px;
+    max-height: 80px;
+    overflow: auto;
+    font-size: 14px;
+    width: 70%;
+  }
+
+  .random-movie-play-btn {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #000000;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+    font-weight: 600;
+  }
+
+  .heading {
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #ffffff;
+    margin-left: 10px;
+  }
+
+  .trending-movies-slick-container {
+    width: 80%;
+    align-self: center;
+  }
+
+  .home-poster-loader-retry-container {
+    width: 80%;
+    background: rgba(13, 13, 13, 1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    height: 30vh;
+    padding: 10px;
+  }
+
+  .home-poster-failure-img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .home-failure-img {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 0px;
+  }
+
+  .home-poster-failure-container-message {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .home-failure-container-message {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .home-poster-try-again-btn {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    width: 94px;
+    height: 32px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .home-try-again-btn {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    width: 80px;
+    height: 32px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+}
